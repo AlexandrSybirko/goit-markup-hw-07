@@ -1,0 +1,24 @@
+$primerycolor: #212121;
+$secondarycolor: #757575;
+$ternarycolor: #2196f3;
+$quartenarycolor: #ffffff;
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+%list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
