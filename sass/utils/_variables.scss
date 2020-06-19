@@ -4,80 +4,12 @@ $ternarycolor: #2196f3;
 $quartenarycolor: #ffffff;
 $bgcolor: #f5f4fa;
 
+$primeryfontfamily: Roboto, sans-serif;
 $secondaryfontfamily: Raleway, sans-serif;
 
-.hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-}
 
 %list {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-
-body {
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.03em;
-}
-
-.container {
-  width: 1200px;
-
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
-}
-
-.container-second {
-  width: 1200px;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: $quartenarycolor;
-}
-.section-portfolio {
-  padding-top: 99px;
-  padding-bottom: 114px;
-  background-color: #e5e5e5;
-}
-.section-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-  color: #212121;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-}
-
-.section-text {
-  margin-top: 10px;
-  margin-bottom: 0;
-
-  color: #757575;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-}
-.section-titles {
-  margin-top: 30px;
-  margin-bottom: 0;
-
-  color: #212121;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
 }
